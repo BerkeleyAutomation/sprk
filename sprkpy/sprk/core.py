@@ -5,17 +5,16 @@ import numpy as np
 import math as m
 
 """
-This module defines all of the primitives for
-the control of the Stewart Platform.
+The core module defines all of the core control primitives of the sprk
 """
 
 
-class SPRKControl:
+class SPRK:
     """
     This is the primary control object for the platform it define the main API
     """
 
-    def __init__(self, comm="COM7",baudrate=57600,timeout=.5):
+    def __init__(self, comm, baudrate=57600,timeout=.5):
 
         """
         The control class is initialized with three platform dependent parameters:
@@ -128,7 +127,6 @@ class WaveObj:
         
     @property
     def request(self):
-        print ("Wave")
         arr = self.x+self.y+self.z+self.xr+self.yr+self.zr
         #print arr
         arr[0] = max(-self.xLim,min(arr[0],self.xLim))
@@ -156,7 +154,6 @@ class PosObj:
 
     @property
     def request(self):
-        print ("Position")
         x = max(-self.xLim,min(self.x,self.xLim))
         y = max(-self.xLim,min(self.y,self.xLim))
         z = max(-self.xLim,min(self.z,self.zLim))
