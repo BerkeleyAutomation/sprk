@@ -18,6 +18,7 @@ translate and rotate phantom tissue. This platform is 20cm × 20cm × 10cm to fi
 </p>
 
 CAD models and design docs can be found [here](https://github.com/BerkeleyAutomation/sprk/tree/master/design/)
+Instruction on fabricating and assembling the SPRK 2 can be found [here](https://github.com/BerkeleyAutomation/sprk/tree/master/assembly/)
 
 ## sprkino
 The sprkino package contains the sources for the firmware for the stewart platform. To build and upload these sources, first download the [Robotis OpenCM IDE](http://en.robotis.com/index/product.php?cate_code=131010). The code is uploaded to a OpenCM9.04-C microcontroller using a Serial USB connector (distinct from the LN-101 USB connector that connects to the software interface). 
