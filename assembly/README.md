@@ -1,4 +1,4 @@
-This outlines step-by-step instruction on building and dassembing the SPR2.
+This outlines step-by-step instruction on building and assembing the SPRK2.
 
 # Base assembly construction
 ## Fabrication of the base plate
@@ -20,11 +20,14 @@ Now we can go ahead and thread the other end of the Nylon ball joint rods to the
 
 # Some things to take care
 * Assigning servo IDs
+
 Dynamixel XL-320s can be assigned Servo IDs to operate them individually when they are daisy-chained. Assigning servo IDs should be the first thing you should do before operating a new servo, because sometimes XL-320s are not able to change IDs afterwards and require a firmware reset. Furthermore, assigning unique and sequential IDs to the six servos can help simplify the programming a lot.
 
 * Assigning servo limits
+
 There can be a lot of collisions when testing different motion modes. Majority of these collisions involve the servo horn hitting the base plate. To avoid having to replace parts later on due to damage, assign hard limits on the servo position in code such that it can never be commanded to cause a collision.
 
 * Debugging servo problems
+
 If a servo overheats or stops working for some reason (usually indicated with a warning light on the servo), you can try turning off the power, waiting for some time, and then restarting the system. Resetting the torque limit and joint mode for each servo can also help.
 However, if a replacement of a servo is required, note the servo ID of the faulty servo (so you can initialize the ID of the replacement servo accordingly), unthread the screw for the the ball joint rod from that servo, and remove the 4 rivets on the bottom of that servo. After all wires are disconnected, you can swap in the new replacement servo.
