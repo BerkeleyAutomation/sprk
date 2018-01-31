@@ -14,7 +14,7 @@ translate and rotate phantom tissue. This platform is 20cm × 20cm × 10cm to fi
 - Nylon Ball Joint M3 x 24mm x 3mm    (x6)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/patelvatsal/stewart_platform/master/design/SPRK2 with DVRK.JPG" width="400">
+  <img src="https://raw.githubusercontent.com/BerkeleyAutomation/sprk/master/design/SPRK2%20with%20DVRK.JPG" width="400">
 </p>
 
 CAD models and design docs can be found [here](https://github.com/BerkeleyAutomation/sprk/tree/master/design/)
