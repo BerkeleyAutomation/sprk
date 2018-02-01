@@ -7,16 +7,34 @@ The base plate is fabricated by laser cutting a 1/8th inch clear acrylic sheet u
 ## Fabrication of the servo horns
 The servo horns are fabricated using 1/4th inch Delrin sheets. Each horn has 4 holes to fix them to the servos using the Robotis rivets, and 1 hole to fix one end of the M3 nylon ball joint rods. Once these horns are laser cut using the files here (add link), they need to be post processed on a drill press. The rivets are not very long, so a countersink also needs to be made to allow the rivets to reach the servo. Note that the default servo horn was not removed and the Delrin horn was simply attached to it using the rivets. The exact counter sink depth on the Delrin horn can be found similarly to that with the base plate. Approximately, this depth can be up to 0.15 inch. The fifth hole – for the Nylon ball joint rod – can be drilled for an M3 screw thread. We use Delrin for the servo horn to be able to thread this hole. Repeat this process for 6 servo horns.
 
+<p align="center">
+  <img src="https://github.com/BerkeleyAutomation/sprk/blob/master/assembly/XL320withHorn.JPG" width="400">
+</p>
+
 ## Fixing horns to servos and servos to base plate using rivets
 Now that the base plate and servo horns are fabricated, we can put together the base assembly. First, we need to home all the servos, and attach the servo horns such that the hole for the ball joint rod is pointing parallel to the body of the servo (as shown in the image). Each of the horns can now be attached to the servos using the small rivets. And subsequently, we can attach the 6 servos to the base plate. It is better to do testing of the code before attaching the servos to the base plate, because the servo horns can collide with the base plate.
+
+<p align="center">
+  <img src="https://github.com/BerkeleyAutomation/sprk/blob/master/assembly/BaseASM_1.JPG" width="400">
+  <img src="https://github.com/BerkeleyAutomation/sprk/blob/master/assembly/BaseASM_2.JPG" width="400">
+</p>
 
 # Top assembly construction
 ## Fabrication of the top plate and buttress
 The top plate is also laser cut from a 1/8th inch acrylic sheet using the file here (add link). The plate has three holes for attaching mounts for different subtasks. More holes can be added for more complex mounts. The Delrin buttress will help attach the Nylon ball joint rod to the top plate. So, we need to drill the two holes on each buttress for an M3 thread after laser cutting. Once this is completed for all 3 buttresses, we can press fit each of them into the top plate.
 
+<p align="center">
+  <img src="https://github.com/BerkeleyAutomation/sprk/blob/master/assembly/TopASM_3.JPG" width="400">
+  <img src="https://github.com/BerkeleyAutomation/sprk/blob/master/assembly/TopASM_1.JPG" width="400">
+</p>
+
 # Putting together base and top assemblies
 When performing any kind of the assembly with the servos, it is always good to disconnect power to the servos in order to prevent any damage to them. The servos can also be homed beforehand so we don’t have to rotate the horn by hand.
 Now we can go ahead and thread the other end of the Nylon ball joint rods to the Delrin servo horns. Hold the servo horn stationary with one hand, when threading the rods into the horns. This is the last step, and the completed platform assembly should look as follows.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BerkeleyAutomation/sprk/master/design/SPRK2%20with%20DVRK.JPG" width="400">
+</p>
 
 # Some things to take care
 * Assigning servo IDs
