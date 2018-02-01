@@ -33,7 +33,8 @@ When performing any kind of the assembly with the servos, it is always good to d
 Now we can go ahead and thread the other end of the Nylon ball joint rods to the Delrin servo horns. Hold the servo horn stationary with one hand, when threading the rods into the horns. This is the last step, and the completed platform assembly should look as follows.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BerkeleyAutomation/sprk/master/design/SPRK2%20with%20DVRK.JPG" width="400">
+  <img src="https://github.com/BerkeleyAutomation/sprk/blob/master/assembly/CompleteASM_1.JPG" width="400">
+  <img src="https://github.com/BerkeleyAutomation/sprk/blob/master/assembly/CompleteASM_2.JPG" width="400">
 </p>
 
 # Some things to take care
